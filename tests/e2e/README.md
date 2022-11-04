@@ -18,7 +18,7 @@ The `e2e` package defines an upgrade `Manager` abstraction. Suite will utilize `
 
 * `manager.go`: defines core manager logic for running containers, export state and create networks.
 
-* `govexec.go`: defines `gov-specific` exec commands to submit/delegate/vote thru nodes `gov` module.
+* `govexec.go`: defines `gov-specific` exec commands to submit/delegate/vote through nodes `gov` module.
 
 ## Chain Upgrades
 
