@@ -71,7 +71,7 @@ git describe --abbrev=0 --tags `git rev-list --tags --skip=1 --max-count=1`
 git describe --abbrev=0 --tags `git rev-list --tags --max-count=1`
 ```
 
-If `Makefile` command cannot get the tags by some reason(i.e. you have no tag for local branch and want to upgrade from specific version to local node etc), versions should be specified manually:
+If `Makefile` command cannot get the tags for some reason (i.e. you have no tag for the local branch and want to upgrade from a specific version to a local node etc), versions should be specified manually:
 
 ```shell
 make test-e2e INITIAL_VERSION=<version> TARGET_VERSION=<version>
