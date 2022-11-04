@@ -59,7 +59,7 @@ After block `50` is reached, the test suite exports `/.evmosd` folder from docke
 
 Suite will mount `TARGET_VERSION` node to local `build/` dir and start the node. Node will get upgrade information from `upgrade-info.json` and will execute the upgrade.
 
-### Version retireve
+### Version retrieve
 
 `INITIAL_VERSION` and `TARGET_VERSION` retrieved from git tags by default with following commands:
 
